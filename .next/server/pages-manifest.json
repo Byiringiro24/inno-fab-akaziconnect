@@ -1,7 +1,22 @@
 {
+  "/": "pages/index.html",
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js"
+  "/_error": "pages/_error.js",
+  "/admin/dashboard": "pages/admin/dashboard.html",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/api/cron/expireJobs": "pages/api/cron/expireJobs.js",
+  "/api/employer/dashboard": "pages/api/employer/dashboard.js",
+  "/api/employer/jobs/[id]": "pages/api/employer/jobs/[id].js",
+  "/api/jobs": "pages/api/jobs.js",
+  "/api/payments/momo": "pages/api/payments/momo.js",
+  "/api/payments/stripe": "pages/api/payments/stripe.js",
+  "/api/upload": "pages/api/upload.js",
+  "/api/verifyEmployer": "pages/api/verifyEmployer.js",
+  "/employer/dashboard": "pages/employer/dashboard.html",
+  "/employer/jobs/[id]": "pages/employer/jobs/[id].html",
+  "/jobs": "pages/jobs.html",
+  "/jobs/[id]": "pages/jobs/[id].html",
+  "/upload": "pages/upload.html",
+  "/404": "pages/404.html"
 }

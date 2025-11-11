@@ -1,0 +1,3 @@
+{
+  "/api/cron/expireJobs": "pages/api/cron/expireJobs.js"
+}

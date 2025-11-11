@@ -1,0 +1,3 @@
+{
+  "/api/payments/stripe": "pages/api/payments/stripe.js"
+}
